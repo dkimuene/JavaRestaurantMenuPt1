@@ -3,12 +3,14 @@ package com.company;
 public class MenuItem {
 
     private double price;
+    private String name;
     private String description;
     private String category;
     private boolean isNew = true;
 
 
-    public MenuItem(double price, String description, String category) {
+    public MenuItem(String name, double price, String description, String category) {
+        this.name = name;
         this.price = price;
         this.description = description;
         this.category = category;
@@ -34,6 +36,14 @@ public class MenuItem {
     // getter for .isNew --> notice the syntax is a little different I didn't use getIsNew() -> just isNew() makes sense as it can only return either true or false
     public boolean isNew() {
         return isNew;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     // setter for .price()

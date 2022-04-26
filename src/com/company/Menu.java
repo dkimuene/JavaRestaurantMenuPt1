@@ -31,4 +31,31 @@ public class Menu {
     }
 
     // no setters --- as of now I don't think there is any reason to overwrite the properties
+
+    //2.
+    // newMenuItems(menuItem)
+    // if menuItem.isNew() then return New Menu Item
+    // else return
+
+
+
+    //3.
+    //getMenuLastUpdated()
+    //return updated (lastUpdate)
+
+    //4.a
+    // printMenuItem(menuItem)
+    // print out menuItem's name price, description, and category
+
+    //4.b
+    //printMenu()
+    // Get the Menu Arraylist
+    // Loop through each one
+    // call printMenuItem
+
+    //menuItemIsEqual(menuItem1, menuItem2)
+    // compare menuItem1 and menuItem2 by the name, price,description, and category
+
+
+
 }
